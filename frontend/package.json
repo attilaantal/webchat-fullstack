@@ -1,0 +1,27 @@
+{
+  "name": "webchat-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start:bg": "node scripts/start-bg.js",
+    "stop:bg": "node scripts/stop-bg.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.7.2",
+    "axios": "^1.4.0",
+    "react-router-dom": "^6.14.1"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.0.0"
+  }
+}

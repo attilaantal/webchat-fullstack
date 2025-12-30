@@ -1,0 +1,22 @@
+node:internal/child_process:420
+    throw new ErrnoException(err, 'spawn');
+    ^
+
+Error: spawn EINVAL
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:753:9)
+    at [eval]:1:26
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:118:14
+    at [eval]-wrapper:6:24
+    at runScript (node:internal/process/execution:101:62)
+    at evalScript (node:internal/process/execution:136:3)
+    at node:internal/main/eval_string:55:3 {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'spawn'
+}
+
+Node.js v22.12.0
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m

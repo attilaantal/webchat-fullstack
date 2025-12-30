@@ -1,0 +1,11 @@
+{
+  "name": "webchat-fullstack",
+  "private": true,
+  "scripts": {
+    "install-all": "(cd backend && npm install) && (cd frontend && npm install)",
+    "start:backend": "cd backend && node scripts/start-bg.js",
+    "stop:backend": "cd backend && node scripts/stop-bg.js",
+    "start:frontend": "cd frontend && node scripts/start-bg.js",
+    "stop:frontend": "cd frontend && node scripts/stop-bg.js"
+  }
+}
