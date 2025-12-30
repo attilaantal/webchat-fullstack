@@ -7,6 +7,7 @@
     "stop:backend": "cd backend && node scripts/stop-bg.js",
     "start:frontend": "cd frontend && node scripts/start-bg.js",
     "stop:frontend": "cd frontend && node scripts/stop-bg.js",
+    "start:all": "npm run start:backend && npm run start:frontend",
     "stop:all": "npm run stop:backend && npm run stop:frontend"
   }
 }
